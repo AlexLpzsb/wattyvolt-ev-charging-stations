@@ -1,0 +1,87 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Variables */
+:root {
+/* Paleta principal */
+  --color-primary: #00e5ff;
+  --color-primary-glow: rgba(0, 229, 255, 0.5);
+  --color-primary-focus: rgba(0, 229, 255, 0.2);
+
+/* Paleta de acento */
+  --color-accent: #a3e635;
+  --color-accent-hover: #bef264;
+  --color-accent-shadow: rgba(163, 230, 53, 0.2);
+  --color-accent-shadow-hover: rgba(163, 230, 53, 0.4);
+  --color-accent-text: rgba(3, 60, 141, 0.832);
+
+/* Estados y alertas */
+  --color-error: #ff6b6b;
+  --color-error-bg: rgba(255, 107, 107, 0.2);
+
+/* Fondos y transparencias */
+  --bg-body: #121212;
+  --bg-page: #033c8d;   /* Páginas secundarias */
+  --bg-panel: rgba(3, 60, 141, 0.70);
+  --bg-dropdown: #1a1a24;   /* Desplegables */
+  --bg-input: rgba(0, 0, 0, 0.4);
+  --bg-item: rgba(0, 0, 0, 0.25);
+  --bg-toggle: rgba(0, 0, 0, 0.4);
+  --bg-toggle-hover: rgba(255, 255, 255, 0.1);
+
+/* Textos: colores */
+  --text-main: #e0e0e0;
+  --text-light: #ffffff;
+  --text-title: #f3f4f6;
+  --text-label: #d1d5db;
+  --text-muted: #9ca3af;
+
+/* Tipografía y tamaños */
+  --font-family-base: system-ui, -apple-system, sans-serif;
+  --font-xs: 0.75rem;   /* Errores, textos nav */
+  --font-sm: 0.8rem;    /* Detalles secundarios */
+  --font-md-sm: 0.85rem;    /* Sugerencias, toggles, hints */
+  --font-base: 0.9rem;    /* Párrafos, inputs, enlaces */
+  --font-md: 0.95rem;   /* Botones sidebar, inputs form */
+  --font-lg: 1rem;    /* Botones principales, textos destacados */
+  --font-lg-plus: 1.05rem;    /* Subtítulos h3 */
+  --font-xl: 1.2rem;    /* Iconos */
+  --font-2xl: 1.3rem;   /* Títulos h2 */
+
+/* Tipografía: negrita */
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+/* Bordes y radios */
+  --border-glass: rgba(255, 255, 255, 0.08);
+  --border-input: rgba(255, 255, 255, 0.1);
+  --border-toggle: rgba(255, 255, 255, 0.15);
+  --border-subtle: rgba(255, 255, 255, 0.05);
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 10px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 20px;
+  --radius-full: 50%;
+
+/* Sombras y efectos */
+  --blur-glass: blur(12px);
+  --shadow-panel: 0 10px 40px rgba(0, 0, 0, 0.5);
+  --shadow-dropdown: 0 4px 12px rgba(0, 0, 0, 0.6);
+  --shadow-logo: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.3));
+  --shadow-mascot: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.4));
+}
+
+/* Etiquetas base */
+body {
+  overflow: hidden;
+  background-color: var(--bg-body);
+  color: var(--text-main);
+  font-family: var(--font-family-base);
+}
